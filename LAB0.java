@@ -31,7 +31,7 @@ public class MENU {
         }
         else if(Number == 3)
         {
-            System.out.println("The average of the Array is " + Task.findAverage());
+            System.out.println("The average of the Array is " + Task.findAverage(NumberList));
             System.out.println("The differs are " + Task.difference(NumberList));
         }
         else if(Number == 4)

@@ -3,7 +3,7 @@ package SECONDSEMSESTERLABS;
 import java.lang.reflect.Array;
 import java.util.Scanner;
 
-public class LAB0 {
+public class MENU {
 
 
 

@@ -10,7 +10,7 @@ public class Task
     public static double findAverage(int[] array)
     {
         double sum = 0;// initialized sum to 0
-        int noOfElements = array.length();
+        int noOfElements = array.length;
 
         for( int i = 0; i < noOfElements; i++)
         {
@@ -28,9 +28,9 @@ public class Task
     {
         double avg = findAverage(arrayToDiff);
 
-        double[] differenceArray = new double[arrayToDiff.length()];
+        double[] differenceArray = new double[arrayToDiff.length)];
 
-        for(int i = 0; i < differenceArray.length(); i++)
+        for(int i = 0; i < differenceArray.length; i++)
         {
             differenceArray[i] = arrayToDiff[i] - avg;
         }

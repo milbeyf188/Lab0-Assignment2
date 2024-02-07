@@ -25,23 +25,23 @@ public class MENU {
         {
             System.out.println(" Maximum of the Array is " + MaxFinder(NumberList));
         }
-        if(Number == 2)
+        else if(Number == 2)
         {
             System.out.println(" Minimum of the Array is " + MinFinder(NumberList));
         }
-        if(Number == 3)
+        else if(Number == 3)
         {
             System.out.println("The average of the Array is " + findAverage());
             System.out.println("The differs are " + difference(NumberList));
         }
-        if(Number == 4)
+        else if(Number == 4)
         {
             System.out.println("The sum of the elements with odd and even numbered indexes are " + );
             System.out.println("Evens " + Even(NumberList));
             System.out.println("Odds " + Odd(NumberList));
 
         }
-        if(Number == 5)
+        else if(Number == 5)
         {
             System.out.println("Exiting...");
         }

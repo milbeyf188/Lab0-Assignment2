@@ -22,7 +22,7 @@ public class Main
 
         
 
-        Menu(array);
+        LAB0.Menu(array);
     
     }
     

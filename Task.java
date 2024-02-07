@@ -24,7 +24,7 @@ public class Task
      * @param arrayToDiff
      * @return array of the differences
      */
-    public static double difference(int[] arrayToDiff)
+    public static double[] difference(int[] arrayToDiff)
     {
         double avg = findAverage(arrayToDiff);
 

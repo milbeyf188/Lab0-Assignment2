@@ -41,8 +41,8 @@ public class MENU {
             else if(Number == 4)
             {
                 System.out.println("The sum of the elements with odd and even numbered indexes are " + );
-                System.out.println("Evens " + find.Even(NumberList));
-                System.out.println("Odds " + find.Odd(NumberList));
+                System.out.println("Evens " + find.even(NumberList));
+                System.out.println("Odds " + find.odd(NumberList));
     
             }
             else if(Number == 5)

@@ -11,7 +11,9 @@ public class MENU {
     {
         int Number = 0;
 
+        //We are making a loop until user exits
         do{
+            //Printing the options
             System.out.println("Choose an option");
             System.out.println("1-Find the maximum of the Array");
             System.out.println("2-Find the minimum of the Array");
@@ -21,7 +23,8 @@ public class MENU {
     
             Scanner input = new Scanner(System.in);
             Number = input.nextInt();
-    
+
+            //Taking action according to user input
             if(Number == 1)
             {
                 System.out.println(" Maximum of the Array is " + Maxmin.MaxFinder(NumberList));
@@ -46,6 +49,7 @@ public class MENU {
             {
                 System.out.println("Exiting...");
             }
+            //exiting if user chooses to exit
         }while(Number =! 5)
     }
 

@@ -40,7 +40,7 @@ public class MENU {
             }
             else if(Number == 4)
             {
-                System.out.println("The sum of the elements with odd and even numbered indexes are " + );
+                System.out.println("The sum of the elements with odd and even numbered indexes are ");
                 System.out.println("Evens " + find.even(NumberList));
                 System.out.println("Odds " + find.odd(NumberList));
     
@@ -50,7 +50,7 @@ public class MENU {
                 System.out.println("Exiting...");
             }
             //exiting if user chooses to exit
-        }while(Number =! 5)
+        }while(Number != 5);
     }
 
 

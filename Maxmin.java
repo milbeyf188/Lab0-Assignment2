@@ -2,7 +2,7 @@
  * Maxmin
  */
 public class Maxmin {
-
+    // returns the maximum value int the array
     public static int MaxFinder(int[] array)
     {
         int max = array[0];
@@ -15,6 +15,7 @@ public class Maxmin {
         }
     return max;
     }
+    // returns the minumum value of the integers in the array
     public static int MinFinder(int[] array)
     {
         int min = array[0];

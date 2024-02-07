@@ -28,7 +28,7 @@ public class Task
     {
         double avg = findAverage(arrayToDiff);
 
-        double[] differenceArray = new double[arrayToDiff.length)];
+        double[] differenceArray = new double[arrayToDiff.length];
 
         for(int i = 0; i < differenceArray.length; i++)
         {
